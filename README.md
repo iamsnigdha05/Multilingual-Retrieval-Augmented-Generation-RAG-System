@@ -71,6 +71,6 @@ ans: All embeddings are in the same multilingual vector space. Chunk overlap hel
 
 q6.	Do the results seem relevant? If not, what might improve them (e.g. better chunking, better embedding model, larger document)?
 ans: Yes, most test cases with high groundedness (>0.85). Relevance could be improved by:
--Better chunking (e.g., sentence or paragraph-aware)
+-Better chunking (sentence or paragraph-aware)
 -Using a larger or fine-tuned embedding model
 -Expanding the PDF corpus  
